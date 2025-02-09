@@ -1,4 +1,6 @@
-
+html {
+    zoom: 0.8;
+}
 body {
     display: flex;
     flex-direction: column;
