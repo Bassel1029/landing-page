@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 150px;
+    padding: 0 440px;
 }
 
 .logo {
@@ -45,7 +45,7 @@ a:hover {
 .welcome-section {
     display: flex;
     gap: 70px;
-    padding: 150px;
+    padding:150px 440px;
     align-items: stretch;
 }
 
@@ -64,7 +64,7 @@ a:hover {
     font-weight: 400;
 }
 
-button {
+.header-button {
     background-color: #3882f6;
     width: fit-content;
     border-radius: 8px;
@@ -76,11 +76,11 @@ button {
     box-sizing: border-box;
 }
 
-button:hover {
+.header-button:hover {
     background-color: #2a65c2;
 }
 
-button:active {
+.header-button:active {
     background-color: #1e4a94;
     transform: scale(0.98);
 }
@@ -102,6 +102,7 @@ button:active {
     flex: 1;
     justify-content: center;
     align-items: center;
+    padding-bottom: 150px;
 }
 
 .info-title {
@@ -110,6 +111,107 @@ button:active {
     padding:40px 0px;
 }
 
-.info-imgs {
+.info-body {
+    display: flex;
+    gap: 50px;
+}
 
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    color: #101010;
+    text-align: center;
+    width: 200px;
+}
+
+.info-img {
+    width:200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 5px solid;
+    border-color: #3882f6;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    flex: 1;
+    padding: 100px 400px;
+}
+
+.p-quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.invitation {
+    padding: 100px 400px;
+}
+
+.blue-box {
+    background-color:#3882f6;
+    max-width: 900px;
+    height: 150px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    padding: 50px 110px;
+    box-sizing: border-box;
+}
+
+.blue-box-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.blue-box-title {
+    font-weight: bold;
+    color: #f9f8f9;
+    font-size: 24px;
+}
+
+.blue-box-subtitle {
+    color: #f9f8f9;
+    font-size: 20px;
+}
+
+.form-button {
+    background-color: #3882f6;
+    width: fit-content;
+    border-radius: 8px;
+    padding: 9px 28px;
+    color: #f9f8f9;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.form-button:hover {
+    background-color: #2a65c2;
+}
+
+.form-button:active {
+    background-color: #1e4a94;
+    transform: scale(0.98);
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
 }
