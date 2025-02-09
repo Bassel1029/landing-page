@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 440px;
+    padding: 0 270px;
 }
 
 .logo {
@@ -48,7 +48,7 @@ a:hover {
 .welcome-section {
     display: flex;
     gap: 70px;
-    padding:150px 440px;
+    padding:150px 270px;
     align-items: stretch;
 }
 
@@ -158,12 +158,14 @@ a:hover {
 }
 
 .invitation {
-    padding: 100px 400px;
+    padding: 100px 300px;
+    display: flex;
+    justify-content:center;
 }
 
 .blue-box {
     background-color:#3882f6;
-    max-width: 900px;
+    width: 900px;
     height: 150px;
     border-radius: 8px;
     display: flex;
@@ -171,12 +173,14 @@ a:hover {
     gap: 120px;
     padding: 50px 110px;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .blue-box-text {
     display: flex;
     flex-direction: column;
     gap: 0;
+    flex-shrink: 0;
 }
 
 .blue-box-title {
@@ -187,7 +191,7 @@ a:hover {
 
 .blue-box-subtitle {
     color: #f9f8f9;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .form-button {
@@ -200,6 +204,7 @@ a:hover {
     font-weight: 700;
     border: 2px solid white;
     box-sizing: border-box;
+    flex-shrink: 0;
 }
 
 .form-button:hover {
@@ -216,5 +221,5 @@ a:hover {
     color: #e5e7eb;
     display: flex;
     justify-content: center;
-    padding: 40px;
+    padding: 30px;
 }
